@@ -1,9 +1,11 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `HankCoolPro (HANK Solutions) - AC & Electrical Services`,
+    description: `Professional Air Conditioner, Electrical Installation, and Servicing by HANK Solutions Enterprise. FOSS-focused engineering approach.`,
+    author: `HANK Solutions Enterprise`,
   },
-  plugins: [],
-}
+  plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-resolve-src`, 
+  ],
+};
